@@ -103,6 +103,7 @@ export default function Troubleshoot() {
                   id="nav-tab"
                   role="tablist"
                 >
+                  
                   <h6
                     className="nav-link active"
                     id="nav-home-tab"
