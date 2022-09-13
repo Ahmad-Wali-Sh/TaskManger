@@ -96,6 +96,10 @@ input[type=text] {
     width: 5rem;
 }
 
+.textwrap {
+    white-space: nowrap;
+}
+
 /* Toggle switch */
 .switch {
     position: relative;

@@ -37,11 +37,11 @@ export default function GeneralDetails(props) {
         <div className="col-1"></div>
         <label
           htmlFor="inputEmail3"
-          className="col-2 width-50 col-form-label text-muted"
+          className="col-1 col-form-label text-muted"
         >
-          POC Name
+          <sapn className="textwrap">POC Name</sapn>
         </label>
-        <div className="col-3">
+        <div className="col-4">
           <input
             type="text"
             name=""
@@ -73,11 +73,11 @@ export default function GeneralDetails(props) {
         <div className="col-1"></div>
         <label
           htmlFor="inputEmail3"
-          className="col-2 col-form-label text-muted"
+          className="col-1 col-form-label text-muted"
         >
           Organization
         </label>
-        <div className="col-sm-3">
+        <div className="col-sm-4">
           <input
             type="text"
             name=""
@@ -224,7 +224,7 @@ export default function GeneralDetails(props) {
           <span className="slider round"></span>
         </label>
       </div>
-      <div className="row mt-2">
+      <div className="row mt-4">
         <div className="col-2">Payment cleared</div>
         <label className="switch">
           <input
